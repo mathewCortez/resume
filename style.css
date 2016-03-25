@@ -1,0 +1,308 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 78%;   
+    height: 170px;
+    margin-left: 17%;
+    margin-top: 25px;
+}
+
+.name {
+    float: right; 
+    padding-top: 20px;
+}
+
+hr { 
+    display: block;
+    position: relative;
+    top: 12px;
+    width: 99%;
+    color: #bcbbbb;
+    border-style: solid;
+    border-width: 2.5px;
+} 
+
+/*   Text   */
+h1 {
+    position: relative;
+    color: #333;  
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+h2 {
+    position: relative;
+    color: #333;  
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1em
+}
+
+h3 {
+    color: #bcbbbb;  
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 78%;
+    padding-left: 19%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 1.5em;
+}
+
+h4 {
+    color: #333;  
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+}
+
+p {
+    font-size: 0.8em;
+    color: #333333;  
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/*        Picures       */
+.prof {
+    float: left;
+    height: 125px;
+    padding-left: 5px;
+}
+
+.apppic {
+    width: 100%;
+    height: auto;
+}
+
+.apppicmid {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 78%;
+    display: block;
+    margin-left: 17%;
+}
+
+/* Colored boxes to the left side of the page */
+.box1 {
+    background-color: #f8981c;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.box2 {
+    background-color: #bcbbbb;
+    width: 60px;
+    height: 60px;
+    margin: 5px;   
+}
+
+.box3 {
+    background-color: #333;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.topcolor {
+    padding-top: 20px;   
+}
+
+/*  Links  */
+a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.75em;
+    word-wrap: break-word;
+}
+
+a:link {
+    color: #333;
+}
+
+a:hover {
+    color: black
+}
+
+a:visited {
+    color: aqua;
+}
+
+/*http://www.sketchingwithcss.com/samplechapter/cheatsheet.html*/
+.colors {
+    float: left;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.work {
+    margin-left: 17%;
+}
+
+.appify {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.sunflower {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 0 2%;
+}
+
+.boken {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+/*       Mobile */
+
+
+@media only screen and (max-width: 550px) {
+    .prof {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+    
+    .header {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 75px;  
+    }
+    
+    .name {
+        width: 100%;   
+    }
+    
+    h1 {
+        text-align: center;
+        float: none;
+        font-size: 1.9em
+    }
+    
+    h2 {
+        float: none;
+        text-align: center;
+        font-size: 0.9em;
+    }
+    
+    hr {
+        width: 100%;   
+        
+    }
+    
+    .colors {
+        display: block;
+        float: none;
+        margin-left: auto;       
+    }
+    /*http://www.sketchingwithcss.com/samplechapter/cheatsheet.html*/
+    .boxes {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    
+    .colornum {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;   
+    }
+    
+    .box1 {
+        float: left;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .box2 {
+        float: left;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .box3 {
+        float: left;
+        width: 70px;
+        height: 70px;
+    }
+    
+    p {
+        float: left;  
+        padding: 20px 16px;
+        text-align: center;
+    }
+    
+    .topcolor {
+        padding: 20px 16px;   
+    }
+    
+    .main {
+        width: 100%;
+        margin-left: auto;
+    }
+    
+    .work {
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    h3 {
+        text-align: center;
+        padding: 20px 0 10px 0px;
+        width: 100%;
+    }  
+    
+    .appify {
+        width: 70%;   
+    }  
+    
+    .sunflower {
+        width: 70%;   
+    }  
+    
+    .boken {
+        width: 70%;   
+    }  
+    
+}
+@media (max-width: 350px) {
+    h1 {
+        font-size: 1.6em;  
+    }
+    
+}
